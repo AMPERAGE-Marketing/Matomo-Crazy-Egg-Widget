@@ -1,0 +1,38 @@
+{
+    "name": "CrazyEggWidgetByAmperage",
+    "version": "1.0.2",
+    "description": "Show Crazy Egg snapshots for the current site as a dashboard widget.",
+    "theme": false,
+    "keywords": [
+        "amperage",
+        "crazy egg",
+        "crazyegg",
+        "widget",
+        "heatmap",
+        "heat map",
+        "dashboard"
+    ],
+    "license": "GPL v3+",
+    "homepage": "https://www.amperagemarketing.com",
+    "require": {
+        "piwik": ">=3.2.1-stable,<4.0.0-b1"
+    },
+    "support": {
+        "email": "kzeni1@gmail.com",
+        "issues": "https://github.com/AMPERAGE-Marketing/Matomo-Crazy-Egg-Widget/issues",
+        "wiki": "https://github.com/AMPERAGE-Marketing/Matomo-Crazy-Egg-Widget/wiki",
+        "source": "https://github.com/AMPERAGE-Marketing/Matomo-Crazy-Egg-Widget"
+    },
+    "authors": [
+        {
+            "name": "Amperage Marketing & Fundraising",
+            "email": "digital@amperagemarketing.com",
+            "homepage": "http://www.amperagemarketing.com"
+        },
+        {
+            "name": "Kurt Zenisek",
+            "email": "kzeni1@gmail.com",
+            "homepage": "http://kzeni.com"
+        }
+    ]
+}
