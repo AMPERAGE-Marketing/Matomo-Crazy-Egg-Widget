@@ -10,7 +10,7 @@ Install it via Matomo (formerly Piwik) Marketplace or by manually uploading the 
 
 ## Changelog
 
-See [https://github.com/AMPERAGE-Marketing/Matomo-Crazy-Egg-Widget/CHANGELOG.md](https://github.com/AMPERAGE-Marketing/Matomo-Crazy-Egg-Widget/CHANGELOG.md)
+See [https://github.com/AMPERAGE-Marketing/Matomo-Crazy-Egg-Widget/blob/master/CHANGELOG.md](https://github.com/AMPERAGE-Marketing/Matomo-Crazy-Egg-Widget/blob/master/CHANGELOG.md)
 
 ## License
 
