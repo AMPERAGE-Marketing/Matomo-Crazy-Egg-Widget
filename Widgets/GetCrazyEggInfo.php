@@ -160,7 +160,7 @@ class GetCrazyEggInfo extends Widget{
 				$snapshotCount = 0;
 				foreach($snapshots as $snapshot){
 					if (strpos($snapshot->source_url, $siteurl) !== false) { // Only snapshot info if it's for the current site's URL
-						$output.= '<a href="https://app.crazyegg.com/v2/snapshots/'.$snapshot->id.'" target="_blank" class="crazyegg-snapshot"><h4 class="name">'.$snapshot->name.'</h4><img src="'.$snapshot->thumbnail_url.'" class="thumbnail" alt="Thumbnail" width="154" height="102" /><span class="total_visits">'.number_format($snapshot->total_visits).'</span><span class="total_clicks">'.number_format($snapshot->total_clicks).'</span><span class="status">'.ucfirst($snapshot->status).'</span><span class="heatmap-preview"><img src="'.$snapshot->heatmap_url.'" class="heatmap" alt="Heatmap" width="100%" /><img src="'.$snapshot->screenshot_url.'" class="screenshot" alt="Screenshot" width="100%" /></span></a><!-- .crazyegg-snapshot -->';
+						$output.= '<a href="https://app.crazyegg.com/v2/snapshots/'.$snapshot->id.'" target="_blank" class="crazyegg-snapshot alert alert-info"><h4 class="name">'.$snapshot->name.'</h4><img src="'.$snapshot->thumbnail_url.'" class="thumbnail" alt="Thumbnail" width="154" height="102" /><span class="total_visits">'.number_format($snapshot->total_visits).'</span><span class="total_clicks">'.number_format($snapshot->total_clicks).'</span><span class="status">'.ucfirst($snapshot->status).'</span><span class="heatmap-preview"><img src="'.$snapshot->heatmap_url.'" class="heatmap" alt="Heatmap" width="100%" /><img src="'.$snapshot->screenshot_url.'" class="screenshot" alt="Screenshot" width="100%" /></span></a><!-- .crazyegg-snapshot -->';
 						$snapshotCount++;
 					}
 				}

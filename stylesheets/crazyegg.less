@@ -1,21 +1,24 @@
-.widget-body { padding:10px 15px; font-size:1.1em; overflow:auto; }
-.crazyegg-snapshot { margin:0 -15px; padding:1em 15px; display:block;
-	.name { margin:0 0 0.4em; font-weight:bold; }
-	img.thumbnail { float:left; margin:0 1em 0 0; max-width:30%; height:auto; }
-	span { display:block; }
-	.total_visits:before { content:'Visits: '; display:inline; }
-	.total_clicks:before { content:'Clicks: '; display:inline; }
-	.status:before { content:'Status: '; display:inline; }
-	.heatmap-preview { display:none; position:relative; padding:1em 0 0;
-		img.screenshot,img.heatmap { display:block; width:100%; height:auto; }
-		img.heatmap { position:absolute; opacity:0.94; transition-duration:0.8s; }
+#widgetCrazyEggWidgetByAmperagegetCrazyEggInfo {
+	.widget-body { padding:10px 15px; font-size:1.1em; overflow:auto; }
+	.crazyegg-snapshot { margin:0 -15px; padding:1em 15px; display:block;
+		.name { margin:0 0 0.4em; font-weight:bold; }
+		img.thumbnail { float:left; margin:0 1em 0 0; max-width:30%; height:auto; }
+		span { display:block; }
+		.total_visits:before { content:'Visits: '; display:inline; }
+		.total_clicks:before { content:'Clicks: '; display:inline; }
+		.status:before { content:'Status: '; display:inline; }
+		.heatmap-preview { display:none; position:relative; padding:1em 0 0;
+			img.screenshot,img.heatmap { display:block; width:100%; height:auto; }
+			img.heatmap { position:absolute; opacity:0.94; transition-duration:0.8s; }
+		}
+		.heatmap-preview:hover,.heatmap-preview:focus {
+			img.heatmap { opacity:0.3; }
+		}
 	}
-	.heatmap-preview:hover,.heatmap-preview:focus {
-		img.heatmap { opacity:0.3; }
+	.crazyegg-snapshot:before { display:none; }
+	.crazyegg-snapshot:after { content:''; display:block; clear:both; }
+	.crazyegg-snapshot:hover,.crazyegg-snapshot:focus { text-decoration:none!important; filter:brightness(1.1);
+		.heatmap-preview { display:block; }
 	}
+	.crazyegg-snapshot:active { text-decoration:none!important; filter:invert(20%); }
 }
-.crazyegg-snapshot:after { content:''; display:block; clear:both; }
-.crazyegg-snapshot:hover,.crazyegg-snapshot:focus { text-decoration:none!important; background:#eee;
-	.heatmap-preview { display:block; }
-}
-.crazyegg-snapshot:active { text-decoration:none!important; background:#ddd; }
